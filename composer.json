@@ -1,0 +1,23 @@
+{
+	"name": "chicpro/php-naver-datalab-api",
+	"description": "PHP Client for Naver Datalab API",
+	"keywords": ["naver", "search", "shopping", "api"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "chicpro",
+			"email": "chicpro@gmail.com",
+			"homepage": "https://ncube.net"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"chicpro\\DATALAB\\": "src/chicpro/DATALAB/"
+		}
+	},
+	"minimum-stability": "stable"
+}
